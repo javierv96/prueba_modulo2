@@ -56,3 +56,8 @@ footer a{
 nav a img{
     height: 30px;
 }
+
+*{
+    margin: 0;
+    padding: 0%;
+}
