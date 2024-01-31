@@ -1,87 +1,69 @@
-nav{
-    background-color: #229faa;
-    color: #fff;
- }
- 
- nav a img{
-     height: 1.5rem;
-     width: 5.3rem;
- }
-
- header img{
-    width: 100%;
-    height: 600px;
- }
-
-
- #icono{
-    background-color: #229faa;
-    width: 100%;
-    height: 30px;
-    padding-top: 7px;
-
- }
-
- #inicio{
-    background-color: black;
-    color: #fff;
- }
-
- .card img{
-    height: 180px;
- }
-
- .card-body{
-    background-color: #229faa;
- }
-
- #contacto .btn{
-    background-color: #229faa;
- }
-
- footer{
-    background-color: #229faa;
- }
-
-footer i{
-    font-size: 40px;
+nav {
+  background-color: #229faa;
+  color: #fff;
 }
-
-footer a{
-    text-decoration: none;
-    outline: none;
-    color: #fff;
+nav a img {
+  height: 1.5rem;
+  width: 5.3rem;
 }
-
-nav a img{
-    height: 30px;
+header img {
+  width: 100%;
+  height: 600px;
 }
-
-*{
-    margin: 0;
-    padding: 0%;
+#icono {
+  background-color: #229faa;
+  width: 100%;
+  height: 30px;
+  padding-top: 7px;
 }
-
+#inicio {
+  background-color: black;
+  color: #fff;
+}
+.card img {
+  height: 180px;
+}
+.card-body {
+  background-color: #229faa;
+}
+#contacto .btn {
+  background-color: #229faa;
+}
+footer {
+  background-color: #229faa;
+}
+footer i {
+  font-size: 40px;
+}
+footer a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+}
+nav a img {
+  height: 30px;
+}
+* {
+  margin: 0;
+  padding: 0%;
+}
 #scrollToTopBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 99;
-    background-color: white;
-    border: none;
-    border-radius: 50%;
-    padding: 10px;
-    cursor: pointer;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
 #scrollToTopBtn i {
-    color: black; /* Cambia el color del icono según tus preferencias */
-    font-size: 40px;
+  color: black; /* Cambia el color del icono según tus preferencias */
+  font-size: 40px;
 }
-
-#buttonEnviar{
-    background-color: #fff;
+#buttonEnviar {
+  background-color: #fff;
 }
