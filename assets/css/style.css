@@ -13,10 +13,6 @@ nav{
     height: 600px;
  }
 
- body section{
-    background-color: black;
-    color: #fff;
- }
 
  #icono{
     background-color: #229faa;
@@ -24,6 +20,11 @@ nav{
     height: 30px;
     padding-top: 7px;
 
+ }
+
+ #inicio{
+    background-color: black;
+    color: #fff;
  }
 
  .card img{
@@ -37,3 +38,17 @@ nav{
  #contacto .btn{
     background-color: #229faa;
  }
+
+ footer{
+    background-color: #229faa;
+ }
+
+footer i{
+    font-size: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
