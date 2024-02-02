@@ -31,19 +31,39 @@ $("#tituloContacto").dblclick(function () {
 $("#viajesChile").dblclick(function () {
   $(this).css("color", "yellow");
 });
+
+//smooth scroll
+$("a").click(function (event) {
+
+  if (this.hash !== "") {
+
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $("html, body").animate({
+          scrollTop: $(hash).offset().top
+      }, 1000); // primero probar con 0 y aumente de 1000 en 1000 para ver diferencia
+  }
+});
+
+
 // Funcion ScrollTop
-function scrollToTop() {
-  window.scrollTo({
+ function scrollToTop() {
+   window.scrollTo({
     top: 0,
     behavior: "smooth",
-  });
+   });
 }
+
+
+
 // Muestra u oculta el botón según el desplazamiento de la página
 window.onscroll = function () {
-  var btn = document.getElementById("scrollToTopBtn");
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    btn.style.display = "block";
-  } else {
-    btn.style.display = "none";
-  }
-};
+   var btn = document.getElementById("scrollToTopBtn");
+   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+     btn.style.display = "block";
+   } else {
+     btn.style.display = "none";
+   }
+ };
