@@ -15,10 +15,11 @@ header img {
   width: 100%;
   height: 30px;
   padding-top: 7px;
+  color: #fff;
 }
 #inicio {
-  background-color: black;
-  color: #fff;
+  background-color: white;
+  color: black;
 }
 .card img {
   height: 180px;
@@ -53,7 +54,7 @@ nav a img {
   bottom: 20px;
   right: 20px;
   z-index: 99;
-  background-color: white;
+  background-color: #229faa;
   border: none;
   border-radius: 50%;
   padding: 10px;
@@ -61,9 +62,13 @@ nav a img {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 #scrollToTopBtn i {
-  color: black; /* Cambia el color del icono según tus preferencias */
+  color: white; /* Cambia el color del icono según tus preferencias */
   font-size: 40px;
 }
 #buttonEnviar {
   background-color: #fff;
+}
+
+#viajesChile{
+  color: #fff;
 }
